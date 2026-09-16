@@ -1,0 +1,20 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	longpaths = true
+	worktree = D:\\Desktop\\数一\\我对学习的思考\\.delta\\worktrees\\6fh1ps7n2dvq\\obsidan_backup
+[remote "origin"]
+	url = https://github.com/orz-sro/obsidan_backup.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+	vscode-merge-base = origin/master
+[remote "local"]
+	url = D:\\Desktop\\数一\\我对学习的思考\\.git
+	fetch = +refs/heads/*:refs/remotes/local/*
+	receivepack = git -c receive.denyCurrentBranch=updateInstead receive-pack
